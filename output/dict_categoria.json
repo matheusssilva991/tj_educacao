@@ -1,0 +1,705 @@
+{
+    "TP_DEPENDENCIA": {
+        "nome": "Dependência Administrativa",
+        "categoria": {
+            "1": "Federal",
+            "2": "Estadual",
+            "3": "Municipal",
+            "4": "Privada"
+        }
+    },
+    "TP_CATEGORIA_ESCOLA_PRIVADA": {
+        "nome": "Categoria da escola privada",
+        "categoria": {
+            "1": "Particular",
+            "2": "Comunitária",
+            "3": "Confessional",
+            "4": "Filantrópica",
+            "NaN": "Não aplicável para escolas públicas"
+        }
+    },
+    "TP_LOCALIZACAO": {
+        "nome": "Localização",
+        "categoria": {
+            "1": "Urbana",
+            "2": "Rural"
+        }
+    },
+    "TP_LOCALIZACAO_DIFERENCIADA": {
+        "nome": "Localização diferenciada",
+        "categoria": {
+            "0": "Escola não está em área de localização diferenciada",
+            "1": "Área de assentamento",
+            "2": "Terra indígena",
+            "3": "Área onde se localiza comunidade de remanescente de quilombos"
+        }
+    },
+    "TP_REGULAMENTACAO": {
+        "nome": "Regulamentação/Autorização no conselho ou órgão municipal, estadual ou federal de educação",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim",
+            "2": "Em tramitação"
+        }
+    },
+    "TP_OCUPACAO_PREDIO_ESCOLAR": {
+        "nome": "Forma de ocupação do Prédio escolar",
+        "categoria": {
+            "1": "Próprio",
+            "2": "Alugado",
+            "3": "Cedido",
+            "NaN": "Não aplicável para escolas que não ocupam prédio escolar"
+        }
+    },
+    "IN_PREDIO_COMPARTILHADO": {
+        "nome": "Prédio compartilhado com outra escola",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim",
+            "NaN":"Não aplicável para escolas que não ocupam prédio escolar"
+        }
+    },
+    "IN_AGUA_FILTRADA": {
+        "nome": "Água consumida pelos alunos",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_AGUA_POTAVEL": {
+        "nome": "Fornece água potável para o consumo humano",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_AGUA_REDE_PUBLICA": {
+        "nome": "Abastecimento de água - Rede pública",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_AGUA_POCO_ARTESIANO": {
+        "nome": "Abastecimento de água - Poço artesiano",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_AGUA_CACIMBA": {
+        "nome": "Abastecimento de água - Cacimba",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_AGUA_FONTE_RIO": {
+        "nome": "Abastecimento de água - Fonte/Rio/Igarapé/Riacho/Córrego",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_AGUA_INEXISTENTE": {
+        "nome": "Abastecimento de água - Não há abastecimento de água",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ENERGIA_REDE_PUBLICA": {
+        "nome": "Energia elétrica - Rede pública",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ENERGIA_GERADOR": {
+        "nome": "Energia elétrica - Gerador",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ENERGIA_GERADOR_FOSSIL": {
+        "nome": "Abastecimento de energia elétrica - Gerador movido a combustível fóssil",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ENERGIA_OUTROS": {
+        "nome": "Abastecimento de energia elétrica - Outros (Energia alternativa)",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ENERGIA_RENOVAVEL": {
+        "nome": "Abastecimento de energia elétrica - Fontes de energia renováveis ou alternativas (gerador a biocombustível e/ou biodigestores, eólica, solar, outras) ",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ENERGIA_INEXISTENTE": {
+        "nome": "Abastecimento de energia elétrica - Não há abastecimento de energia elétrica",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ESGOTO_REDE_PUBLICA": {
+        "nome": "Esgoto sanitário - Rede pública",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ESGOTO_FOSSA_SEPTICA": {
+        "nome": "Esgoto sanitário - Fossa Séptica",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ESGOTO_FOSSA_COMUM": {
+        "nome": "Esgoto sanitário - Fossa rudimentar/comum",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ESGOTO_FOSSA": {
+        "nome": "Esgoto sanitário - Fossa",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ESGOTO_INEXISTENTE": {
+        "nome": "Esgoto sanitário - Não há esgotamento sanitário",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_LIXO_SERVICO_COLETA": {
+        "nome": "Destinação do lixo - Serviço de coleta",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_LIXO_QUEIMA": {
+        "nome": "Destinação do lixo - Queima",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_LIXO_ENTERRA": {
+        "nome": "Destinação do lixo - Enterra",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_LIXO_DESTINO_FINAL_PUBLICO": {
+        "nome": "Destinação do lixo - Leva a uma destinação final financiada pelo poder público",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_LIXO_DESCARTA_OUTRA_AREA": {
+        "nome": "Destinação do lixo - Descarta em outra área",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_LIXO_JOGA_OUTRA_AREA": {
+        "nome": "Destinação do lixo - Joga em outra área",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_LIXO_OUTROS": {
+        "nome": "Destinação do lixo - Outros",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_LIXO_RECICLA": {
+        "nome": "Tratamento do lixo/resíduos que a escola realiza - Reciclagem",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_TRATAMENTO_LIXO_SEPARACAO": {
+        "nome": "Tratamento do lixo/resíduos que a escola realiza - Separação do lixo/resíduos",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_TRATAMENTO_LIXO_REUTILIZA": {
+        "nome": "Tratamento do lixo/resíduos que a escola realiza - Reaproveitamento/reutilização",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_TRATAMENTO_LIXO_RECICLAGEM": {
+        "nome": "Tratamento do lixo/resíduos que a escola realiza - Reciclagem",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_TRATAMENTO_LIXO_INEXISTENTE": {
+        "nome": "Tratamento do lixo/resíduos que a escola realiza - Não faz tratamento",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_BANHEIRO_FORA_PREDIO": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Banheiro fora do prédio",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_BANHEIRO_DENTRO_PREDIO": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Banheiro dentro do prédio",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_BANHEIRO": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Banheiro",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_BANHEIRO_EI": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Banheiro adequado à educação infantil",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_BANHEIRO_PNE": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Banheiro acessível, adequado ao uso de pessoas com deficiência ou mobilidade reduzida",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_BANHEIRO_FUNCIONARIOS": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Banheiro exclusivo para os funcionários",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_BANHEIRO_CHUVEIRO": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Banheiro ou vestiário com chuveiro",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_BERCARIO": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Berçário",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_BIBLIOTECA": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Biblioteca",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_BIBLIOTECA_SALA_LEITURA": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Sala de leitura",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_COZINHA": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Cozinha",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_PATIO_COBERTO": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Pátio coberto",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_PATIO_DESCOBERTO": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Pátio descoberto",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_PARQUE_INFANTIL": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Parque infantil",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_QUADRA_ESPORTES": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Quadra de esportes coberta ou descoberta",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_QUADRA_ESPORTES_COBERTA": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Quadra de esportes coberta",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_QUADRA_ESPORTES_DESCOBERTA": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Quadra de esportes descoberta",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_REFEITORIO": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Refeitório",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_SALA_MULTIUSO": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Sala multiuso (música, dança e artes)",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_SALA_DIRETORIA": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Sala de diretoria",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_SALA_PROFESSOR": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Sala de professores",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_SECRETARIA": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Secretaria",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_SALA_ATENDIMENTO_ESPECIAL": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Sala de recursos Multifuncionais para Atendimento Educacional Especializado (AEE) ",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_TERREIRAO": {
+        "nome": "Dependências físicas existentes e utilizadas na escola - Terreirão (área para prática desportiva e recreação sem cobertura, sem piso e sem edificações)",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ACESSIBILIDADE_CORRIMAO": {
+        "nome": "Recursos de acessibilidade para pessoas com deficiência ou mobilidade reduzida nas vias de circulação interna na escola - Corrimão e guarda corpos",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ACESSIBILIDADE_PISOS_TATEIS": {
+        "nome": "Recursos de acessibilidade para pessoas com deficiência ou mobilidade reduzida nas vias de circulação interna na escola - Pisos táteis",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ACESSIBILIDADE_VAO_LIVRE": {
+        "nome": "Recursos de acessibilidade para pessoas com deficiência ou mobilidade reduzida nas vias de circulação interna na escola - Portas com vão livre de no mínimo 80 cm",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ACESSIBILIDADE_RAMPAS": {
+        "nome": "Recursos de acessibilidade para pessoas com deficiência ou mobilidade reduzida nas vias de circulação interna na escola - Rampas",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ACESSIBILIDADE_SINAL_SONORO": {
+        "nome": "Recursos de acessibilidade para pessoas com deficiência ou mobilidade reduzida nas vias de circulação interna na escola - Sinal sonoro nas áreas de circulação",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ACESSIBILIDADE_SINAL_TATIL": {
+        "nome": "Recursos de acessibilidade para pessoas com deficiência ou mobilidade reduzida nas vias de circulação interna na escola - Sinalização tátil (piso/paredes)",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ACESSIBILIDADE_SINAL_VISUAL": {
+        "nome": "Recursos de acessibilidade para pessoas com deficiência ou mobilidade reduzida nas vias de circulação interna na escola - Sinalização visual (piso/paredes)",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_ACESSIBILIDADE_INEXISTENTE": {
+        "nome": "Recursos de acessibilidade para pessoas com deficiência ou mobilidade reduzida nas viasde circulação interna na escola - Nenhum dos recursos de acessibilidade listados",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "QT_FUNCIONARIOS": {
+        "nome": "Total de funcionários da escola (inclusive profissionais escolares em sala de aula)"
+    },
+    "IN_PROF_ADMINISTRATIVO": {
+        "nome": "Profissionais que atuam na escola - Auxiliares de secretaria ou auxiliares administrativos, atendentes",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "QT_PROF_ADMINISTRATIVO": {
+        "nome": "Quantidade de profissionais que atuam na escola - Auxiliares de secretaria ou auxiliares administrativos, atendentes"
+    },
+    "IN_PROF_SERVICOS_GERAIS": {
+        "nome": "Profissionais que atuam na escola - Auxiliar de serviços gerais, porteiro(a), zelador(a), faxineiro(a), horticultor(a), jardineiro(a)",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "QT_PROF_SERVICOS_GERAIS": {
+        "nome": "Quantidade de profissionais que atuam na escola - Auxiliar de serviços gerais, porteiro(a), zelador(a), faxineiro(a), horticultor(a), jardineiro(a)"
+    },
+    "IN_PROF_BIBLIOTECARIO": {
+        "nome": "Profissionais que atuam na escola - Bibliotecário(a), auxiliar de biblioteca ou monitor(a) da sala de leitura",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "QT_PROF_BIBLIOTECARIO": {
+        "nome": "Quantidade de profissionais que atuam na escola - Bibliotecário(a), auxiliar de biblioteca ou monitor(a) da sala de leitura"
+    },
+    "IN_PROF_COORDENADOR": {
+        "nome": "Profissionais que atuam na escola - Coordenador(a) de turno/disciplina",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "QT_PROF_COORDENADOR": {
+        "nome": "Quantidade de profissionais que atuam na escola - Coordenador(a) de turno/disciplina"
+    },
+    "IN_PROF_PEDAGOGIA": {
+        "nome": "Profissionais que atuam na escola - Profissionais de apoio e supervisão pedagógica: pedagogo(a), coordenador(a) pedagógico(a), orientador(a) educacional, supervisor(a) escolar e coordenador(a) de área de ensino",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "QT_PROF_PEDAGOGIA": {
+        "nome": "Quantidade de profissionais que atuam na escola - Profissionais de apoio e supervisão pedagógica: pedagogo(a), coordenador(a) pedagógico(a), orientador(a) educacional, supervisor(a) escolar e coordenador(a) de área de ensino"
+    },
+    "IN_PROF_SECRETARIO": {
+        "nome": "Profissionais que atuam na escola - Secretário(a) escolar",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "QT_PROF_SECRETARIO": {
+        "nome": "Quantidade de profissionais que atuam na escola - Secretário(a) escolar"
+    },
+    "IN_PROF_MONITORES": {
+        "nome": "Profissionais que atuam na escola - Técnicos(as), monitores(as), supervisores(as) ou auxiliares de laboratório(s), de apoio a tecnologias educacionais ou em multimeios/multimídias eletrônico/digitais",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "QT_PROF_MONITORES": {
+        "nome": "Quantidade de profissionais que atuam na escola - Técnicos(as), monitores(as), supervisores(as) ou auxiliares de laboratório(s), de apoio a tecnologias educacionais ou em multimeios/multimídias eletrônico/digitais"
+    },
+    "IN_PROF_GESTAO": {
+        "nome": "Profissionais que atuam na escola - Vice-diretor(a) ou diretor(a) adjunto(a), profissionais responsáveis pela gestão administrativa e/ou financeira",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "QT_PROF_GESTAO": {
+        "nome": "Quantidade de profissionais que atuam na escola - Vice-diretor(a) ou diretor(a) adjunto(a), profissionais responsáveis pela gestão administrativa e/ou financeira"
+    },
+    "IN_ALIMENTACAO": {
+        "nome": "Alimentação escolar para os alunos - PNAE/FNDE",
+        "categoria": {
+            "0": "Não oferece",
+            "1": "Oferece"
+        }
+    },
+    "IN_MATERIAL_PED_INFANTIL": {
+        "nome": "Instrumentos, materiais socioculturais e/ou pedagógicos em uso na escola para o desenvolvimento de atividades de ensino aprendizagem - Brinquedos para Educação Infantil",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_MATERIAL_PED_FUNDAMENTAL": {
+        "nome": "Instrumentos, materiais socioculturais e/ou pedagógicos em uso na escola para o desenvolvimento de atividades de ensino aprendizagem - Jogos Educativos",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_MATERIAL_PED_INDIGENA": {
+        "nome": "Instrumentos, materiais socioculturais e/ou pedagógicos em uso na escola para o desenvolvimento de atividades de ensino aprendizagem - Indígena",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_MATERIAL_PED_ETNICO": {
+        "nome": "Instrumentos, materiais socioculturais e/ou pedagógicos em uso na escola para o desenvolvimento de atividades de ensino aprendizagem - Materiais pedagógicos para a educação das Relações Étnicos Raciais",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_MATERIAL_PED_CAMPO": {
+        "nome": "Instrumentos, materiais socioculturais e/ou pedagógicos em uso na escola para o desenvolvimento de atividades de ensino aprendizagem - Materiais pedagógicos para a educação do campo",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_MATERIAL_ESP_QUILOMBOLA": {
+        "nome": "Instrumentos, materiais socioculturais e/ou pedagógicos em uso na escola para o desenvolvimento de atividades de ensino aprendizagem -  Quilombolas",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_MATERIAL_ESP_INDIGENA": {
+        "nome": "Instrumentos, materiais socioculturais e/ou pedagógicos em uso na escola para o desenvolvimento de atividades de ensino aprendizagem - Indígenas",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_MATERIAL_ESP_NAO_UTILIZA": {
+        "nome": "Instrumentos, materiais socioculturais e/ou pedagógicos em uso na escola para o desenvolvimento de atividades de ensino aprendizagem - Não utiliza",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_EDUCACAO_INDIGENA": {
+        "nome": "Educação Escolar Indígena",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_INF_CRE": {
+        "nome": "Etapa de Ensino - Educação Infantil - Creche (Possui uma ou mais matrículas)",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "IN_INF_PRE": {
+        "nome": "Etapa de Ensino - Educação Infantil - Pré-Escola (Possui uma ou mais matrículas)",
+        "categoria": {
+            "0": "Não",
+            "1": "Sim"
+        }
+    },
+    "QT_MAT_INF": {
+        "nome": "Número de Matrículas na Educação Infantil"
+    },
+    "QT_MAT_INF_CRE": {
+        "nome": "Número de Matrículas na Educação Infantil - Creche"
+    },
+    "QT_MAT_INF_PRE": {
+        "nome": "Número de Matrículas na Educação Infantil - Pré-Escola"
+    },
+    "QT_MAT_BAS_0_3": {
+        "nome": "Número de Matrículas na Educação Básica - Até 3 anos de idade"
+    },
+    "QT_MAT_BAS_4_5": {
+        "nome": "Número de Matrículas na Educação Básica - Entre 4 e 5 anos de idade"
+    },
+    "QT_MAT_INF_INT": {
+        "nome": "Número de Matrículas na Educação Infantil - Tempo Integral"
+    },
+    "QT_MAT_INF_CRE_INT": {
+        "nome": "Número de Matrículas na Educação Infantil - Creche - Tempo Integral"
+    },
+    "QT_MAT_INF_PRE_INT": {
+        "nome": "Número de Matrículas na Educação Infantil - Pré-Escola - Tempo Integral"
+    },
+    "QT_DOC_INF": {
+        "nome": "Número de Docentes da Educação Infantil"
+    },
+    "QT_DOC_INF_CRE": {
+        "nome": "Número de Docentes da Educação Infantil - Creche"
+    },
+    "QT_DOC_INF_PRE": {
+        "nome": "Número de Docentes da Educação Infantil - Pré-Escola"
+    },
+    "QT_TUR_INF": {
+        "nome": "Número de Turmas da Educação Infantil"
+    },
+    "QT_TUR_INF_CRE": {
+        "nome": "Número de Turmas da Educação Infantil - Creche"
+    },
+    "QT_TUR_INF_PRE": {
+        "nome": "Número de Turmas da Educação Infantil - Pré-Escola"
+    }
+}
