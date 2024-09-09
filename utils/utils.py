@@ -78,6 +78,7 @@ def get_prop_columns(
     df_copy["PROP"] = df_copy["PROP"].round(2)
     return df_copy["PROP"]
 
+
 def get_qt_estabelecimento_columns_pivoted(
     df: pd.DataFrame,
     qt_column: str,
@@ -86,12 +87,14 @@ def get_qt_estabelecimento_columns_pivoted(
     df_copy = df[["NO_MUNICIPIO", "ANO", pivot_column] + [qt_column]].copy()
     df_copy = replace_nao_aplicavel(df_copy, [qt_column])
     df_copy["QT"] = df_copy[qt_column].apply(
-    lambda x: 1 if x > 0 else 0
+        lambda x: 1 if x > 0 else 0
     )
-    df_copy = df_copy.groupby(by=["NO_MUNICIPIO", "ANO", pivot_column], as_index=False).sum(
+    df_copy = df_copy.groupby(by=["NO_MUNICIPIO", "ANO", pivot_column],
+                              as_index=False).sum(
         numeric_only=True
     ).drop(columns=qt_column)
-    df_copy = df_copy.pivot_table(index=["NO_MUNICIPIO", "ANO"], columns=pivot_column, values='QT',
-                    aggfunc='sum', fill_value=0).reset_index()
+    df_copy = df_copy.pivot_table(index=["NO_MUNICIPIO", "ANO"],
+                                  columns=pivot_column, values='QT',
+                                  aggfunc='sum', fill_value=0).reset_index()
 
     return df_copy
