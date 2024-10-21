@@ -1,0 +1,35 @@
+QT_MAT_BAS_0_3 População de 0 a 3 de idade escolar
+QT_MAT_BAS_4_5 População de 4 a 5 de idade escolar
+QT_MAT_INF Número geral de matrículas
+QT_DOC_INF Número geral de docentes
+QT_ESC Número geral de escolas
+QT_MAT_INF Número geral de matrículas
+QT_TUR_INF Número geral de turmas
+MDA_ALU_TUR_INF Média geral de alunos por turma
+MDA_ALU_TUR_INF_CRE Média de alunos por turma em creches
+MDA_ALU_TUR_INF_PRE Média de alunos por turma em pré-escolas
+MDA_ALU_TUR_INF_EST Média de alunos por turma em escolas estaduais
+MDA_ALU_TUR_INF_FED Média de alunos por turma em escolas federais
+MDA_ALU_TUR_INF_MUN Média de alunos por turma em escolas municipais
+MDA_ALU_TUR_INF_PRI Média de alunos por turma em escolas privadas
+MDA_ALU_TUR_INF_RUR Média de alunos por turma em localidades rurais
+MDA_ALU_TUR_INF_URB Média de alunos por turma em localidades urbanas
+QT_ESC_INF_CRE Número geral de matrículas
+QT_ESC_INF_CRE_EST Número de creches estaduais
+QT_ESC_INF_CRE_FED Número de creches federais
+QT_ESC_INF_CRE_MUN Número de creches municipais
+QT_ESC_INF_CRE_PRI Número de creches privadas
+QT_ESC_INF_CRE_RUR Número de creches em localidade rural
+QT_ESC_INF_CRE_URB Número de creches em localidade urbana
+QT_INF_PRE Número geral de matrículas
+QT_INF_PRE_EST Número de pré-escolas estaduais
+QT_INF_PRE_FED Número de pré-escolas federais
+QT_INF_PRE_MUN Número de pré-escolas municipais
+QT_INF_PRE_PRI Número de pré-escolas privadas
+QT_ESC_INF_PRE_RUR Número de pré-escolas em localidade rural
+QT_ESC_INF_PRE_URB Número de pré-escolas em localidade urbana
+QT_MAT_INF_CRE Número de matrículas em creches
+QT_MAT_INF_CRE_EST Número de matrículas em creches estaduais
+QT_MAT_INF_CRE_FED Número de matrículas em creches federais
+QT_MAT_INF_CRE_MUN Número de matrículas em creches municipais
+QT_MAT_INF_CRE_PRI Número de matrículas em creches privadas
