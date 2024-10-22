@@ -1,35 +1,89 @@
-QT_MAT_BAS_0_3 População de 0 a 3 de idade escolar
-QT_MAT_BAS_4_5 População de 4 a 5 de idade escolar
-QT_MAT_INF Número geral de matrículas
-QT_DOC_INF Número geral de docentes
-QT_ESC Número geral de escolas
-QT_MAT_INF Número geral de matrículas
-QT_TUR_INF Número geral de turmas
-MDA_ALU_TUR_INF Média geral de alunos por turma
-MDA_ALU_TUR_INF_CRE Média de alunos por turma em creches
-MDA_ALU_TUR_INF_PRE Média de alunos por turma em pré-escolas
-MDA_ALU_TUR_INF_EST Média de alunos por turma em escolas estaduais
-MDA_ALU_TUR_INF_FED Média de alunos por turma em escolas federais
-MDA_ALU_TUR_INF_MUN Média de alunos por turma em escolas municipais
-MDA_ALU_TUR_INF_PRI Média de alunos por turma em escolas privadas
-MDA_ALU_TUR_INF_RUR Média de alunos por turma em localidades rurais
-MDA_ALU_TUR_INF_URB Média de alunos por turma em localidades urbanas
-QT_ESC_INF_CRE Número geral de matrículas
-QT_ESC_INF_CRE_EST Número de creches estaduais
-QT_ESC_INF_CRE_FED Número de creches federais
-QT_ESC_INF_CRE_MUN Número de creches municipais
-QT_ESC_INF_CRE_PRI Número de creches privadas
-QT_ESC_INF_CRE_RUR Número de creches em localidade rural
-QT_ESC_INF_CRE_URB Número de creches em localidade urbana
-QT_INF_PRE Número geral de matrículas
-QT_INF_PRE_EST Número de pré-escolas estaduais
-QT_INF_PRE_FED Número de pré-escolas federais
-QT_INF_PRE_MUN Número de pré-escolas municipais
-QT_INF_PRE_PRI Número de pré-escolas privadas
-QT_ESC_INF_PRE_RUR Número de pré-escolas em localidade rural
-QT_ESC_INF_PRE_URB Número de pré-escolas em localidade urbana
-QT_MAT_INF_CRE Número de matrículas em creches
-QT_MAT_INF_CRE_EST Número de matrículas em creches estaduais
-QT_MAT_INF_CRE_FED Número de matrículas em creches federais
-QT_MAT_INF_CRE_MUN Número de matrículas em creches municipais
-QT_MAT_INF_CRE_PRI Número de matrículas em creches privadas
+NO_MUNICIPIO Nome do município.
+ANO Ano de referência dos dados.
+QT_MAT_BAS_0_3 Quantidade de matrículas de crianças de 0 a 3 anos.
+QT_MAT_BAS_4_5 Quantidade de matrículas de crianças de 4 a 5 anos.
+QT_MAT_INF Quantidade total de matrículas na educação infantil.
+QT_DOC_INF Quantidade de docentes na educação infantil.
+QT_ESC Quantidade de escolas.
+QT_TUR_INF Quantidade de turmas na educação infantil.
+MDA_ALU_TUR_INF Média de alunos por turma na educação infantil.
+MDA_ALU_TUR_CRE Média de alunos por turma em creches.
+MDA_ALU_TUR_PRE Média de alunos por turma em pré-escolas.
+MDA_ALU_TUR_INF_EST Média de alunos por turma em escolas estaduais.
+MDA_ALU_TUR_INF_FED Média de alunos por turma em escolas federais.
+MDA_ALU_TUR_INF_MUN Média de alunos por turma em escolas municipais.
+MDA_ALU_TUR_INF_PRI Média de alunos por turma em escolas privadas.
+MDA_ALU_TUR_INF_RUR Média de alunos por turma em áreas rurais.
+MDA_ALU_TUR_INF_URB Média de alunos por turma em áreas urbanas.
+QT_ESC_INF_CRE Quantidade de creches.
+QT_ESC_INF_CRE_EST Quantidade de creches estaduais.
+QT_ESC_INF_CRE_FED Quantidade de creches federais.
+QT_ESC_INF_CRE_MUN Quantidade de creches municipais.
+QT_ESC_INF_CRE_PRI Quantidade de creches privadas.
+QT_INF_CRE_RUR Quantidade de creches em áreas rurais.
+QT_INF_CRE_URB Quantidade de creches em áreas urbanas.
+QT_INF_PRE Quantidade de pré-escolas.
+QT_INF_PRE_EST Quantidade de pré-escolas estaduais.
+QT_INF_PRE_FED Quantidade de pré-escolas federais.
+QT_INF_PRE_MUN Quantidade de pré-escolas municipais.
+QT_INF_PRE_PRI Quantidade de pré-escolas privadas.
+QT_INF_PRE_RUR Quantidade de pré-escolas em áreas rurais.
+QT_INF_PRE_URB Quantidade de pré-escolas em áreas urbanas.
+QT_MAT_INF_CRE Quantidade de matrículas em creches.
+QT_MAT_INF_CRE_EST Quantidade de matrículas em creches estaduais.
+QT_MAT_INF_CRE_FED Quantidade de matrículas em creches federais.
+QT_MAT_INF_CRE_MUN Quantidade de matrículas em creches municipais.
+QT_MAT_INF_CRE_PRI Quantidade de matrículas em creches privadas.
+QT_MAT_INF_PRE Quantidade de matrículas em pré-escolas.
+QT_MAT_INF_PRE_EST Quantidade de matrículas em pré-escolas estaduais.
+QT_MAT_INF_PRE_FED Quantidade de matrículas em pré-escolas federais.
+QT_MAT_INF_PRE_MUN Quantidade de matrículas em pré-escolas municipais.
+QT_MAT_INF_PRE_PRI Quantidade de matrículas em pré-escolas privadas.
+PROP_BIBLIOTECA Proporção de escolas com biblioteca.
+PROP_BIBLIOTECA_INF_CRE Proporção de creches com biblioteca.
+PROP_BIBLIOTECA_INF_PRE Proporção de pré-escolas com biblioteca.
+PROP_LIXO_SERVICO_COLETA Proporção de escolas com serviço de coleta de lixo.
+PROP_LIXO_SERVICO_COLETA_INF_CRE Proporção de creches com serviço de coleta de lixo.
+PROP_LIXO_SERVICO_COLETA_INF_PRE Proporção de pré-escolas com serviço de coleta de lixo.
+PROP_REFEITORIO Proporção de escolas com refeitório.
+PROP_REFEITORIO_INF_CRE Proporção de creches com refeitório.
+PROP_REFEITORIO_INF_PRE Proporção de pré-escolas com refeitório.
+PROP_COZINHA Proporção de escolas com cozinha.
+PROP_COZINHA_INF_CRE Proporção de creches com cozinha.
+PROP_COZINHA_INF_PRE Proporção de pré-escolas com cozinha.
+PROP_PARQUE_INFANTIL Proporção de escolas com parque infantil.
+PROP_PARQUE_INFANTIL_INF_CRE Proporção de creches com parque infantil.
+PROP_PARQUE_INFANTIL_INF_PRE Proporção de pré-escolas com parque infantil.
+PROP_QUADRA_ESPORTES Proporção de escolas com quadra de esportes.
+PROP_QUADRA_ESPORTES_INF_CRE Proporção de creches com quadra de esportes.
+PROP_QUADRA_ESPORTES_INF_PRE Proporção de pré-escolas com quadra de esportes.
+PROP_SALA_DIRETORIA Proporção de escolas com sala de diretoria.
+PROP_SALA_DIRETORIA_INF_CRE Proporção de creches com sala de diretoria.
+PROP_SALA_DIRETORIA_INF_PRE Proporção de pré-escolas com sala de diretoria.
+PROP_BIBLIOTECA_SALA_LEITURA Proporção de escolas com biblioteca ou sala de leitura.
+PROP_BIBLIOTECA_SALA_LEITURA_INF_CRE Proporção de creches com biblioteca ou sala de leitura.
+PROP_BIBLIOTECA_SALA_LEITURA_INF_PRE Proporção de pré-escolas com biblioteca ou sala de leitura.
+PROP_SALA_PROFESSOR Proporção de escolas com sala de professores.
+PROP_SALA_PROFESSOR_INF_CRE Proporção de creches com sala de professores.
+PROP_SALA_PROFESSOR_INF_PRE Proporção de pré-escolas com sala de professores.
+PROP_ENERGIA_INEXISTENTE Proporção de escolas sem energia elétrica.
+PROP_ENERGIA_INEXISTENTE_INF_CRE Proporção de creches sem energia elétrica.
+PROP_ENERGIA_INEXISTENTE_INF_PRE Proporção de pré-escolas sem energia elétrica.
+PROP_AGUA_INEXISTENTE Proporção de escolas sem água.
+PROP_AGUA_INEXISTENTE_INF_CRE Proporção de creches sem água.
+PROP_AGUA_INEXISTENTE_INF_PRE Proporção de pré-escolas sem água.
+PROP_ESGOTO_INEXISTENTE Proporção de escolas sem esgoto.
+PROP_ESGOTO_INEXISTENTE_INF_CRE Proporção de creches sem esgoto.
+PROP_ESGOTO_INEXISTENTE_INF_PRE Proporção de pré-escolas sem esgoto.
+PROP_AGUA_POTAVEL Proporção de escolas com água potável.
+PROP_AGUA_POTAVEL_INF_CRE Proporção de creches com água potável.
+PROP_AGUA_POTAVEL_INF_PRE Proporção de pré-escolas com água potável.
+PROP_AGUA_FILTRADA Proporção de escolas com água filtrada.
+PROP_AGUA_FILTRADA_INF_CRE Proporção de creches com água filtrada.
+PROP_AGUA_FILTRADA_INF_PRE Proporção de pré-escolas com água filtrada.
+PROP_BANHEIRO_PNE Proporção de escolas com banheiro para pessoas com necessidades especiais.
+PROP_BANHEIRO_PNE_INF_CRE Proporção de creches com banheiro para pessoas com necessidades especiais.
+PROP_BANHEIRO_PNE_INF_PRE Proporção de pré-escolas com banheiro para pessoas com necessidades especiais.
+PROP_BANHEIRO_EI Proporção de escolas com banheiro para educação infantil.
+PROP_BANHEIRO_EI_INF_CRE Proporção de creches com banheiro para educação infantil.
+PROP_BANHEIRO_EI_INF_PRE Proporção de pré-escolas com banheiro para educação infantil.
